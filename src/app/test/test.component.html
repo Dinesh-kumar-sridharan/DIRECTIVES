@@ -1,0 +1,13 @@
+<div *ngIf = "displayname; then thenBlock; else elseBlock"></div>
+
+<ng-template #thenBlock>
+<h1 >
+  Dinesh kumar
+</h1>
+</ng-template>
+
+<ng-template #elseBlock>
+  <h2>
+    The name is hidden
+  </h2>
+</ng-template>
